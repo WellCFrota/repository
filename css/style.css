@@ -1,0 +1,24 @@
+.marcador {
+    border: 1px solid red;
+}
+
+.custom-bar{
+    margin-top: 80px;
+}
+
+.icone{
+    height: 43px;
+    width: 113px;
+}
+
+.custom-bar2{
+    margin-right: 10px;
+}
+
+.caixa-item{
+    margin-top: 10px;
+}
+
+.rodape{
+    background-color: black;
+}
