@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  background: url('background.jpg') !important;
 }
 
 
@@ -39,8 +40,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 400px;
-  margin-top: 80px;
+  height: 500px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -50,15 +50,15 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 400px;
+  height: 500px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
-  position: ;
+  position: absolute;
   top: 0;
   left: 0;
-  min-width: 1366px;
-  height: 400px;
+  min-width: 100%;
+  height: 500px;
 }
 
 

@@ -1,24 +1,46 @@
-.marcador {
-    border: 1px solid red;
+div#container{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left:0px;
+	background-color: #eee;
+	display: block;
+}
+div#loader{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left:0px;
+	background-color: #eee;
+	background-image: url('../img/load.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#conteudo{
+	margin-left: 100px;
+	margin-right:100px;
+}
+featurette-divider{
+	margin-top: 5px;
+}
+body{
+	background: url('background.jpg') !important;
+}
+h4{
+	text-align: justify;
+}
+#sobre{
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .custom-bar{
     margin-top: 80px;
 }
 
-.icone{
-    height: 43px;
-    width: 113px;
-}
-
-.custom-bar2{
-    margin-right: 10px;
-}
-
 .caixa-item{
-    margin-top: 10px;
-}
-
-.rodape{
-    background-color: black;
+    margin-top: 50px;
 }
