@@ -44,3 +44,24 @@ h4{
 .caixa-item{
     margin-top: 50px;
 }
+
+.btn-primary{
+	background-color: yellow;
+	color: black;
+	border: 1px solid gray;
+}
+.btn-primary:hover{
+	background-color: black;
+	color: white;
+	border: 1px solid gray;
+}
+.btn-default{
+	background-color: yellow;
+	color: black;
+	border: 1px solid gray;
+}
+.btn-default:hover{
+	background-color: black;
+	color: white;
+	border: 1px solid gray;
+}
